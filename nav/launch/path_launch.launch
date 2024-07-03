@@ -1,0 +1,8 @@
+<launch>
+    <!-- Launch original node -->
+    <arg name = "map_file" default = "$(find nav)/src/map.yaml"/>
+    
+    <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)"/>
+    <!-- Launch visualization node -->
+</launch>
+
