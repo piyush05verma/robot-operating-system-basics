@@ -1,0 +1,5 @@
+# Matrix2D.srv
+float64[] matrix
+---
+float64[] filtered_matrix
+
